@@ -1,12 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Investment Club Website</title>
-</head>
-<body>
-    <h1>Professional Investment Club Website</h1>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <title>Professional Investment Club Website</title>
+
+    <!--    favicon-->
+    <link rel="shortcut icon" href="image/favicon.png">
+    <!--    fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900,500italic,600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Catamaran:400,700,500,600,100,300,800' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+
+    <!-- Font awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--    pe-icon-7-->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="vendors/elegant-icon/style.css">
+    <!--    owl carousel css-->
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.css">
+
+    <link rel="stylesheet" href="vendors/wow.js/animate.css">
+    <!--    custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--    responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="sampleContainer">
+        <div class="loader">
+            <span class="dot dot_1"></span>
+            <span class="dot dot_2"></span>
+            <span class="dot dot_3"></span>
+            <span class="dot dot_4"></span>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <ul class="nav top-nav">
+                    <li><a href="#"><i class="pe-7s-mail" aria-hidden="true"></i>investmentclube@domain.com</a></li>
+                    <li><a href="#"><i class="pe-7s-call"></i> +000 000 000 000</a></li>
+                    <li><a href="#"><i class="pe-7s-clock"></i>07:30 – 19:30 Monday to Saturday</a></li>
+                </ul>
+                <a class="search" href="#"><i class="pe-7s-search"></i></a>
+            </div>
+        </div>
+        <div class="header-bottom navbar-static-top" id="main_navbar">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="image/Logo01.png" alt=""></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html">Home</a></li>
+                           
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Join the Club</a></li>
+                            <li><a href="#">Investment Resources</a></li>
+                          
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+    <!--    start slider area-->
+    <section class="slider-area">
+        <div class="slider-carousel">
+            <div class="item">
+                <div class="slider-img">
+                    <img src="image/slider-img1.jpg" alt="">
+                </div>
+                <div class="s-content">
+                    <h3 class="wow slideInLeft">Grow Your Wealth Together:</h3>
+                    <h2 class="wow slideInRight"> Join Our Investment Club</h2>
+                    <p>Unlock smarter stock market strategies with the support of a like-minded community focused on steady growth.</p>
+                    <a class="btn button" href="#">Become a Member</a>
+                </div>
+            </div>
+            <div class="item slider-img">
+                <div class="slider-img">
+                    <img src="image/slider-img1.jpg" alt="">
+                </div>
+                <div class="s-content">
+                    <h3 class="wow slideInLeft">Your Path to Smarter</h3>
+                    <h2 class="wow slideInRight"> Investing Starts Here</h2>
+
+                    <p>Collaborate, learn, and invest with others who share your passion for achieving consistent stock market success.</p>
+                    <a class="btn button" href="#">Join the Club Now</a>
+                </div>
+            </div>
+            <div class="item slider-img">
+                <div class="slider-img">
+                    <img src="image/slider-img1.jpg" alt="">
+                </div>
+                <div class="s-content">
+                    <h3 class="wow slideInLeft">Invest With Confidence:</h3>
+                    <h2 class="wow slideInRight"> Together We Succeed</h2>
+                    <p>Tap into expert insights, valuable resources, and collective wisdom to boost your stock market returns.</p>
+                    <a class="btn button" href="#">Get Started Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End slider area-->
+
+    <!--    start services area-->
+    <section class="services-area">
+        <div class="container text-center about_cool">
+            <h1>About Our Investment Club</h1>
+            <p>For the purpose of to pool resources, exchange expertise, and make wise financial decisions, our Investment Club brings together interested people. We seek to increase wealth, improve financial literacy, and enhance each member's investment a pattern of with collective strategies and well-informed decision-making through collaboration and frequent discussions.</p>
+
+            <div class="row m0 service-group">
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/1.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2>Shared Learning</h2>
+                        <p>Exchange ideas, learn market insights, and sharpen your financial knowledge as a team</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/2.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2> Collective Growth</h2>
+                        <p>Our members grow together, supporting each other's financial goals and long-term success.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/3.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2>Ethical Investing</h2>
+                        <p>We prioritize responsible, transparent, and ethical investing practices at all times.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row m0 services-promo">
+                <div class="section-header">
+                    <h2>We help you to grow your business</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+                </div>
+                <div class="row services-info">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="s-info">
+                            <span>20</span>
+                        </div>
+                        <div class="s-info-text">
+                            <h4>Year of <br>experience</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="s-info">
+                            <span>88</span>
+                        </div>
+                        <div class="s-info-text">
+                            <h4>Award<br> winning</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="s-info">
+                            <span>324</span>
+                        </div>
+                        <div class="s-info-text">
+                            <h4>Happy<br> customers</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="s-info">
+                            <span>100%</span>
+                        </div>
+                        <div class="s-info-text">
+                            <h4>Satisfied<br>customers</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End services area-->
+
+    <!--    start about us area-->
+    <section class="about-us-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 a-text">
+                    <div class="section-header">
+                        <h2>about us</h2>
+                        <p style="text-align: justify;">A group individuals who get together to pool assets and make jointly invested investments in stocks, mutual funds, or other financial assets is known as an investment club. generally, members get collectively on a regular basis to talk about market trends, investment opportunities, and collaborative decision-making. Both novice and seasoned investors can expand their knowledge and accumulate wealth together in the club's cooperative learning environment. Based on each member's input, profits and losses are distributed correspondingly. It is a great method to learn, make responsible investments, and lower financial risk.</p>
+
+                        <a class="btn button" href="#">Read More<i class="arrow_right"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="image/about-us/1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--    End about us area-->
+    <!--    start call-action-baner-area-->
+    <section class="call-action-baner-area">
+        <div class="baner-content">
+            <h2>Join <br> the  <span>Club</span></h2>
+            <p>Take your investing journey to the next level—together.</p>
+            <a class="btn button" href="#">Get started</a>
+        </div>
+        
+        <div class="services-area container text-center about_cool">
+            <h1>Start Your Investment Journey—Join the Club Today</h1>
+            <p>Join a community of like-minded investors and gain access to exclusive insights,<br> fresh investment ideas, and live discussions to help you grow your wealth with confidence.</p>
+
+            <div class="row m0 service-group">
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/1.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2>Access to Exclusive Group Insights</h2>
+                        <p>Stay informed with market trends, stock analysis, and valuable insights shared within our trusted community.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/2.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2> Monthly Investment Ideas & Updates</h2>
+                        <p>Receive fresh, actionable investment ideas and updates every month to help you make informed decisions</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/3.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2> Live Discussions & Webinars</h2>
+                        <p>Join interactive sessions, live discussions, and expert-led webinars to deepen your investment knowledge.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--    End call-action-baner-area-->
+    <!--    start requst area-->
+    <section class="request-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 request-content">
+                    <h2 class="tittle">Signup Form</h2>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer interdum sem ac magna. Integer in lectus sed ligula commodo commodo. In molestie, neque et porta lobortis, ligula sem auctor mauris, a luctus lacus quam sit amet augue.
+                        Aliquam eu felis. Nullam vel erat. Phasellus erat nibh, nonummy sit amet.</p>
+                </div>
+                <div class="col-md-6 request-contact">
+                    <form id="contactForm" class="row contact-form" novalidate="novalidate">
+                        <div class="col-sm-12 form-group">
+                            <div class="input-group">
+                                <select class="selectpicker">
+                                      <option>Business Planning</option>
+                                      <option>Ketchup</option>
+                                      <option>Barbecue</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group"><input type="text" id="name" name="name" placeholder="First name" required="" class="form-control"></div>
+                        <div class="col-sm-6 form-group"><input type="text" id="email" name="email" placeholder="Last name" required="" class="form-control"></div>
+                        <div class="col-sm-6 form-group"><input type="email" id="phone" name="phone" placeholder="Email" class="form-control"></div>
+                        <div class="col-sm-6 form-group"><input type="tel" id="subject" name="subject" placeholder="Phone number" required="" class="form-control"></div>
+                        <div class="col-sm-12"><button type="submit" class="btn submit button">submit</button></div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End request area-->
+
+    <!--    Start Resources  area-->
+    <section class="services-area">
+        <div class="container text-center about_cool">
+            <h1>Investment Resources</h1>
+            <p>Stay informed, learn the basics, and access the tools you need to make confident investment decisions.</p>
+
+            <div class="row m0 service-group">
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/1.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2>Market News</h2>
+                        <p>Curated articles, market updates, and key financial news to keep you informed.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/2.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2> Stock Market Basics</h2>
+                        <p>Step-by-step guides and resources designed for beginner investors.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-group-1">
+                    <div class="box-i">
+                        <img src="image/icon/3.png" alt="">
+                    </div>
+                    <div class="content mr-5">
+                        <h2>Recommended Tools</h2>
+                        <p>A trusted list of investment platforms, apps, and useful tools.</p>
+                        <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row m0 services-promo">
+                <div class="section-header">
+                    <h2>Download Our Free Investment Starter Guide</h2>
+                    <p>Get our essential guide to kickstart your investing journey. Enter your email to receive it instantly.</p>
+                </div>
+                <form class="flex flex-col sm:flex-row items-center gap-4">
+                      <input type="email" placeholder="Enter your email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200">
+                      <button type="submit" class="bg-blue-600 text-success px-6 py-3 rounded-lg hover:bg-blue-700 transition">Download</button>
+                </form>
+            </div>
+        </div>
+    </section>
+ <!--    End  Resources area-->
+
+ <!--    start latest news area-->
+    <section class="latest-news-area">
+        <div class="container text-center">
+            <h2 class="testi"> Testimonials </h2>
+            <div class="row">
+               <div class="col-md-12 l-news-right">
+                    <div class="l-slider">
+                        <div class="item">
+                            <div class="slider-contennt">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer interdum sem ac magna. Integer in lectus sed ligula commodo commodo. In molestie, neque et porta lobortis, ligula sem auctor mauris, a luctus lacus quam
+                                    sit amet augue. Aliquam eu felis. Nullam vel erat. Phasellus erat nibh, nonummy sit amet.</p>
+                                    
+                                <div class="slider-img"><img class="img-circle" src="image/l-news/slider1.png" alt=""></div>
+                                
+                                <a href="#">
+                                    <h4>John Joe,<span> New York. CEO</span></h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-contennt">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer interdum sem ac magna. Integer in lectus sed ligula commodo commodo. In molestie, neque et porta lobortis, ligula sem auctor mauris, a luctus lacus quam
+                                    sit amet augue. Aliquam eu felis. Nullam vel erat. Phasellus erat nibh, nonummy sit amet.</p>
+                                <div class="slider-img"><img class="img-circle" src="image/l-news/slider1.png" alt=""></div>
+                                <a href="#">
+                                    <h4>John Joe,<span> New York. CEO</span></h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-contennt">
+                                <p>A group of members who pool their funds to invest collaboratively while sharing ideas, strategies, and choices is known as an investment club. It is perfect for people looking for financial literacy and group investing experience while members build money together, learn about markets, and evaluate opportunities.
+                                </p>
+                                <div class="slider-img"><img class="img-circle" src="image/l-news/slider1.png" alt=""></div>
+                                <a href="#">
+                                    <h4>John Joe,<span> New York. CEO</span></h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End latest news area-->
+
+    <!--    start requst area-->
+    <section class="request-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 request-content">
+                    <h2 class="tittle"> Contact Us</h2>
+                    <p style="text-align: justify;">We’d love to hear from you! Whether you have questions about our investment strategies, want to learn more about membership, or are seeking partnership opportunities, the Investment Club team is here to help.</p>
+                </div>
+                <div class="col-md-6 request-contact">
+                    <form id="contactForm" class="row contact-form" novalidate="novalidate">
+                        <div class="col-sm-12 form-group">
+                            <div class="input-group">
+                                <select class="selectpicker">
+                                      <option>Business Planning</option>
+                                      <option>Ketchup</option>
+                                      <option>Barbecue</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group"><input type="text" id="name" name="name" placeholder="First name" required="" class="form-control"></div>
+                        <div class="col-sm-6 form-group"><input type="text" id="email" name="email" placeholder="Last name" required="" class="form-control"></div>
+                        <div class="col-sm-6 form-group"><input type="email" id="phone" name="phone" placeholder="Email" class="form-control"></div>
+                        <div class="col-sm-6 form-group"><input type="tel" id="subject" name="subject" placeholder="Phone number" required="" class="form-control"></div>
+                        <div class="col-sm-12"><button type="submit" class="btn submit button">Submit</button></div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End request area-->
+
+    
+    <!--    start footer area-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-md-3 col-sm-6 widget about-widget">
+                    <a href="index.html" class="brand-logo"><img src="image/Logo02.png" alt=""></a>
+                    <p style="text-align: justify;">A group of members who pool their funds to invest collaboratively while sharing ideas, strategies, and choices is known as an investment club. It is perfect for people looking for financial literacy and group investing experience while members build money together, learn about markets, and evaluate opportunities.
+                    </p>
+                </div>
+                <div class="row m0 col-md-3 col-sm-6 widget explor-widget">
+                    <h2 class="tittle">Explore</h2>
+                    <ul class="nav left">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us </a></li>
+                        <li><a href="#">Join Our Club</a></li>
+                        <li><a href="#"> Resources </a></li>
+                        
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <ul class="nav right">
+                        <li><a href="#">Bonds</a></li>
+                        <li><a href="#">Commodities</a></li>
+                        <li><a href="#">Investments</a></li>
+                        <li><a href="#">Retirement</a></li>
+                        <li><a href="#">Stocks</a></li>
+                        <li><a href="#">Trades</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 widget recent-widget">
+                    <h2 class="tittle">Recent news</h2>
+                    <p>Lorem ipsum dolor sit amet, consecte-tur adipisicing elit, sed do eiusmod </p>
+                    <a href="#"><i class="pe-7s-clock"></i>30 June</a>
+                    <p class="p-t">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#"><i class="pe-7s-clock"></i>30 June</a>
+                </div>
+                <div class="col-md-3 col-sm-6 widget contact-widget">
+                    <h2 class="tittle">Our newsletter</h2>
+                    <form action="#" class="search-form" method="get">
+                        <div class="input-group">
+                            <input type="search" class="form-control" placeholder="your email address">
+                            <span class="input-group-addon">
+                                    <button type="submit"><i class="pe-7s-mail"></i><i class="pe-7s-mail hover"></i></button>
+                                </span>
+                        </div>
+                    </form>
+                    <ul class="social-icon">
+                        <li><a href="#"><i class="social_linkedin"></i><i class="social_linkedin hover"></i></a></li>
+                        <li><a href="#"><i class="social_twitter"></i><i class="social_twitter hover"></i></a></li>
+                        <li><a href="#"><i class="social_facebook"></i><i class="social_facebook hover"></i></a></li>
+                        <li><a href="#"><i class="social_youtube"></i><i class="social_youtube hover"></i></a></li>
+                        <li><a href="#"><i class="social_tumblr"></i><i class="social_tumblr hover"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        Copyright © 2025 <a href="#"> Investment Club - </a>All right reserved by Web Developer B. Rashid.
+                    </div>
+                    <div class="col-md-9 col-sm-8 footer-b-r">
+                        <ul class="nav">
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Advanced Search</a></li>
+                            <li><a href="#">Orders and Returns</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#"> Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--    End footer area-->
+
+
+    <!-- jQuery Latest version -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+
+    <!--    wow JS-->
+    <script src="vendors/wow.js/wow.min.js"></script>
+
+    <!--    owl carousel js-->
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="js/canvasjs.min.js"></script>
+    <script src="js/Chart.bundle.min.js"></script>
+    <!--    cutome js-->
+    <script src="js/custom.js"></script>
 </body>
+
 </html>
